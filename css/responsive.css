@@ -1,0 +1,173 @@
+@media only screen and (max-width: 900px) {
+    .home {
+        width: 99%;
+    }
+
+    .header-rost {
+        display: none;
+    }
+
+    header>img {
+        width: 7vh;
+        height: 7vh;
+        right: 1vh;
+        top: -1vh;
+        display: block;
+        margin-left: auto;
+        position: absolute;
+        z-index: 10;
+    }
+
+    header>img:hover+.menu {
+        display: block;
+    }
+
+    .home>pre {
+        font-size: 5vw;
+        /* margin-top: 0vh; */
+        padding-top: 0;
+    }
+
+    .read {
+        height: 3vh;
+        padding: 0;
+        margin-top: 5%;
+    }
+
+    .home-tockalar>button {
+        width: 3vh;
+        height: 3vh;
+        border: 0.6vh solid white;
+    }
+
+    .home {
+        height: 30%;
+    }
+
+    .home-tockalar {
+        /* margin-left: 44.5%; */
+        padding-left: 44.5%;
+    }
+
+    .home-past {
+        height: 50vh;
+        margin-top: 0;
+        display: block;
+    }
+
+    .home-past>div {
+        width: 94%;
+        height: 12.4vh;
+    }
+
+    .home-past img {
+        height: 8vh !important;
+        width: 8vh !important;
+    }
+
+    .home-past h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .home-past>div:nth-child(3)>h2 {
+        padding-top: 3vh;
+    }
+
+    .about>div:nth-child(1)>img:nth-child(1) {
+        width: 30vh;
+    }
+
+    .about>div:nth-child(1)>img:nth-child(2) {
+        width: 15vh;
+        top: 25vh;
+    }
+
+    .about>div:nth-child(2)>p {
+        width: 35vw;
+        top: 25vh;
+    }
+    .about>div:nth-child(2)>h1{
+        /* margin-top: 5vh; */
+        padding-top: 5vh;
+    }
+    .about>div:nth-child(2)>button{
+        width: 20vw;
+    }
+    
+    .courses>div>div{
+        width: 24vh;
+        height: 21vh;
+        /* margin: 1vh; */
+        padding: 1vh;
+        border-radius: 2vh;
+        padding: 1vh;
+    }
+    .courses>div>button{
+        width: 30vw;
+        height: 8vh;
+        background-color: #133E3F;
+        color: white;
+        border: none;
+    }
+    .login{
+        padding-top: 15vh;
+    }
+    .login-chap>h1{
+        font-size: 2.5vh;
+    }
+    .login-rost{
+        height: 60%;
+    }
+    .login-rost>input{
+        height: 4vh;
+        border-radius: 1vh;
+    }
+    .people{
+        width: 90%;
+        /* margin-left: 5%; */
+        padding-left: 5%;
+    }
+    .contact{
+        height: 50vh;
+    }
+    .contact-rost>input{
+        width: 77%;
+        margin-left: 10%;
+        padding-left: 3%;
+        height: 10%;
+        border: none;
+        border-radius: 10vh;
+        margin-bottom: 2vh;
+    }
+
+    .contact-rost>button{
+        width: 30%;
+        height: 5vh;
+        border: none;
+        background-color: #4BC5B8;
+        color: white;
+        margin-left: 37%;
+        border-radius: 5vh;
+    }
+
+    .contact-rost::before{
+        position: absolute;
+        transform-origin: left;
+        transform: rotateY(-180deg);
+        content: "";
+        border-top: 25vh solid transparent;
+        border-right: 8vw solid transparent;
+        border-bottom:25vh solid #133E3F ;
+        border-left: 8vw solid #133E3F;
+    }
+
+    .footer-center{
+        padding-left: 1vh;
+    }
+    .footer-right{
+        width: 30vw;
+    }
+    footer{
+        height: 46vh;
+    }
+}
